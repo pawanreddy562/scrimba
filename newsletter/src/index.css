@@ -1,0 +1,10 @@
+html, body {
+    margin: 0;
+}
+
+.user-container{
+    border: black;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+}

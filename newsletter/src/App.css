@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+   
+}
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #262626;
+    color: #D9D9D9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-container{
+    border: black;
+    border-top:2px solid;
+    border-bottom:2px solid;
+    border-left:1px dashed;
+    border-right:1px dashed;
+
+    display: inline-flex;
+    justify-content: center;
+}
+
+header{
+  background-color : #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+}
+header > img {
+  width: 24px;
+  margin-right: 7px;
+  
+}
+
+header > h1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Inter;
+    color: white;
+}
+
+article.aticle-item{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  }
+.journal-Main-container{
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-right: 19px;
+  
+}
+
+.journal-Image{
+
+ height: 100%;
+ width: 100%;
+ border-radius: 16px;
+ object-fit: cover;
+ 
+}
+
+
+
+.info-container span.country{
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-right: 12px;
+} 
+
+.info-container a{
+  color : #2B283A;
+  font-size: 0.7rem;
+}
+
+.info-container a:visited {
+    color: #918E9B;
+}
+
+.info-container h2.enrty-title{
+   margin-top: 7px;
+    margin-bottom: 17px;
+}
+.info-container p.trip-dates{
+  font-weight: bold;
+}
+.info-container p.entry-text{
+    line-height: 1.5;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden; 
+}
+
+.state-container{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.state-counter{
+  display: flex;
+  align-items: flex-end;
+  align-self: center;
+  
+}
+
+.displaycount{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   color: #262626;
+    margin-block: 0 10px;
+    font-size: 2rem;
+}
+
+.plus {
+    margin-left: -20px;
+}
+
+.minus {
+    margin-right: -20px;
+    z-index: 1;
+}
+
+.state-counter > button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #737373;
+    color: #D9D9D9;
+    font-size: 1.5rem;
+}
+
